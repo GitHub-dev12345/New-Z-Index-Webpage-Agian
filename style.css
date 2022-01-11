@@ -1,0 +1,78 @@
+body{
+    background-color: bisque;
+}
+
+.container{
+    height: 700px;
+    width: 1000px;
+    position: relative;
+    margin: auto;
+    background: burlywood;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.layer1{
+    z-index: 5;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    height: 150px;
+    width: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    background: orange;
+    border-radius: 12px;
+}
+
+.layer2{
+    z-index: 4;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    height: 250px;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid black;
+    background: palegreen;
+    border-radius: 12px;
+}
+
+.layer3{
+    z-index: 3;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 350px;
+    width: 400px;
+    padding: 15px;
+    border: 1px solid black;
+    background: palevioletred;
+    border-radius: 12px;
+}
+
+.layer4{
+    z-index: 2;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    height: 450px;
+    width: 500px;
+    padding: 15px;
+    border: 1px solid black;
+    background: purple;
+    border-radius: 12px;
+}
+
+.layer5{
+    z-index: 1;
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    height: 500px;
+    width: 600px;
+    padding: 15px;
+    border: 1px solid black;
+    background: powderblue;
+    border-radius: 12px;
+}
